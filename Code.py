@@ -2,6 +2,7 @@ import tkinter as tk
 from PIL import ImageTk, Image
 from tkinter import messagebox as mb
 import random
+import os
 
 
 class Start:
@@ -336,53 +337,53 @@ class One:
                 positions.append(str(eval(command))[38])
         if positions[0] == "o" and positions[3] == "o" and positions[6] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[1] == "o" and positions[4] == "o" and positions[7] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[2] == "o" and positions[5] == "o" and positions[8] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[0] == "o" and positions[1] == "o" and positions[2] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[3] == "o" and positions[4] == "o" and positions[5] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[6] == "o" and positions[7] == "o" and positions[8] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[0] == "o" and positions[4] == "o" and positions[8] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[2] == "o" and positions[4] == "o" and positions[6] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
 
         if positions[0] == "x" and positions[3] == "x" and positions[6] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[1] == "x" and positions[4] == "x" and positions[7] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[2] == "x" and positions[5] == "x" and positions[8] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[0] == "x" and positions[1] == "x" and positions[2] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[3] == "x" and positions[4] == "x" and positions[5] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[6] == "x" and positions[7] == "x" and positions[8] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[0] == "x" and positions[4] == "x" and positions[8] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[2] == "x" and positions[4] == "x" and positions[6] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
 
         x = False
 
@@ -392,7 +393,7 @@ class One:
 
         if not x:
             mb.showinfo("DRAW", "There are no winners in life.")
-            quit()
+            os._exit(1)
 
 
 class Two:
@@ -469,53 +470,53 @@ class Two:
                 positions.append(str(eval(command))[38])
         if positions[0] == "o" and positions[3] == "o" and positions[6] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[1] == "o" and positions[4] == "o" and positions[7] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[2] == "o" and positions[5] == "o" and positions[8] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[0] == "o" and positions[1] == "o" and positions[2] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[3] == "o" and positions[4] == "o" and positions[5] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[6] == "o" and positions[7] == "o" and positions[8] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[0] == "o" and positions[4] == "o" and positions[8] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
         if positions[2] == "o" and positions[4] == "o" and positions[6] == "o":
             mb.showinfo("WINNER", "Noughts wins")
-            quit()
+            os._exit(1)
 
         if positions[0] == "x" and positions[3] == "x" and positions[6] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[1] == "x" and positions[4] == "x" and positions[7] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[2] == "x" and positions[5] == "x" and positions[8] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[0] == "x" and positions[1] == "x" and positions[2] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[3] == "x" and positions[4] == "x" and positions[5] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[6] == "x" and positions[7] == "x" and positions[8] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[0] == "x" and positions[4] == "x" and positions[8] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
         if positions[2] == "x" and positions[4] == "x" and positions[6] == "x":
             mb.showinfo("WINNER", "Crosses wins")
-            quit()
+            os._exit(1)
 
         x = False
 
@@ -525,7 +526,7 @@ class Two:
 
         if not x:
             mb.showinfo("DRAW", "There are no winners in life.")
-            quit()
+            os._exit(1)
 
 
 root = tk.Tk()
